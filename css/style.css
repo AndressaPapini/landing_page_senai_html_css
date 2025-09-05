@@ -6,4 +6,38 @@
   box-sizing: border-box;
 }
 
-/* Continuar digitação código CSS (deste ponto) */
+:root {
+  --cor-primaria: #F9003D;
+  --cor-secundaria: #A259F7;
+  --cor-destaque: #FFAF00;
+  --fundo-escuro: #080324;
+  --texto-claro: #FFFFFF;
+  --texto-cinza: #C7BAB3;
+}
+
+body {
+  background-color: var(--fundo-escuro);
+  color: var(--texto-claro);
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+address {
+  font-style: normal;
+}
+
+.container{
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.header {
+  background-color: var(--cor-primaria);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 0.5rem 0;
+}
